@@ -110,6 +110,17 @@ body div div div .imagenCarrousel {
   text-align: center;
 }
 
+.loremIndex {
+  color: #e4c4f5;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  margin-bottom: 5rem;
+}
+
 body header nav {
   width: 90%;
   position: -webkit-sticky;
