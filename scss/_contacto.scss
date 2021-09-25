@@ -1,0 +1,107 @@
+.sectionContacto {
+    display: grid;
+    grid-template-areas: "videoMapa datos";
+
+    .sectionContacto__local {
+        grid-area: videoMapa;
+        color: $violetaoscuro;
+        margin-top: 50rem;
+        margin-bottom: 10rem;
+    }
+
+    iframe {
+        margin-top: 2rem;
+    }
+}
+
+
+
+.sectionContacto__ubicacion {
+    grid-area: videoMapa;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.sectionContacto__formulario {
+    background-color: $blanco;
+    width: 60rem;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    border-radius: 0.4rem;
+    font-family: 'Urbanist', sans-serif;
+    box-shadow: 0.7rem 1.3rem 3.7rem $negro;
+
+    h1 {
+        color: $negro;
+        font-size: 2.4rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .botonFormulario {
+            margin-top: 4rem;
+    }
+    .boton {
+        width: 70%;
+        height: 4.5rem;
+        margin-top: 1.5rem;
+        border-radius: 0.4rem;
+        color: blanchedalmond;
+        text-transform: uppercase;
+        background: linear-gradient(to left top, #817780, #000000);
+        font-size: 2rem;
+    }
+
+    .boton:hover {
+        cursor: pointer;
+        transform: translateY(-0.3rem);
+        transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+    }
+
+    .boton:active {
+        transform: translateY(0.3rem);
+    }
+
+    .formItem {
+        width: 100%;
+        background-color: #faecff;
+        padding: 1rem;
+        border-radius: 0.4rem;
+        margin-bottom: 2rem;
+        border: 0.1rem solid #253B29;
+        font-family: 'Source Serif Pro', serif;
+        font-size: 1.8rem;
+    }
+
+    .formItem:focus {
+        height: 6rem;
+    }
+
+    .palabrasForm {
+        font-size: 2rem;
+        color: $negro;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: 600;
+    }
+
+    .contactanos {
+        margin-top: 2rem;
+        font-family: 'Source Serif Pro', serif;
+        font-size: 3rem;
+        color: $violetaoscuro;
+    }
+
+    form div {
+        color: $violetaoscuro;
+    }
+}
+
+
+
+video {
+    margin-top: 2rem;
+}

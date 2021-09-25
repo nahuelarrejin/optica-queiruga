@@ -1,0 +1,159 @@
+.tituloMarca {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.marcasTienda {
+    display: grid;
+    grid-template-areas: "areaUno areaDos areaTres areaCuatro areaCinco"
+                         "areaUno areaSeis areaSiete areaOcho areaNueve";
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    
+    div ul li {
+    text-decoration: none;  
+}
+
+    p   {
+        margin-bottom: 1rem;
+        color: $rosa;
+        font-size: 2.5rem;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+}
+}
+    .marcasTienda__nav {
+    grid-area: areaUno;
+    margin-left: 0.5rem;
+}
+
+.anteojoUno {
+    grid-area: areaDos;
+    transition: 2s;
+}
+
+.anteojoUno:hover {
+    transform: scale(1.1);
+}
+
+.anteojoDos {
+    grid-area: areaTres;
+    transition: 2s;
+}
+
+.anteojoDos:hover {
+    transform: scale(1.1);
+}
+
+.anteojoTres {
+    grid-area: areaCuatro;
+    transition: 2s;
+}
+
+.anteojoTres:hover {
+    transform: scale(1.1);
+}
+
+.anteojoCuatro {
+    grid-area: areaCinco;
+    transition: 2s;
+}
+
+.anteojoCuatro:hover {
+    transform: scale(1.1);
+}
+
+.anteojoCinco {
+    grid-area: areaSeis;
+    transition: 2s;
+}
+
+.anteojoCinco:hover {
+    transform: scale(1.1);
+}
+
+.anteojoSeis {
+    grid-area: areaSiete;
+    transition: 2s;
+}
+
+.anteojoSeis:hover {
+    transform: scale(1.1);
+}
+
+.anteojoSiete {
+    grid-area: areaOcho;
+    transition: 2s;
+}
+
+.anteojoSiete:hover {
+    transform: scale(1.1);
+}
+
+.anteojoOcho {
+    grid-area: areaNueve;
+    transition: 2s;
+}
+
+.anteojoOcho:hover {
+    transform: scale(1.1);
+}
+
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+    
+    ul {
+    position:absolute;
+    min-width:140px;
+
+    li {
+        position:relative;
+
+        ul {
+            right:-140px;
+            top:0px;
+        }
+    }
+}
+    
+    a {
+    font-size: 1.5rem;
+    color:$blanco;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+.caracteristicasMarca {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: $rosa;
+    font-weight: 600;
+}
+
+} 
+
+.nav li a:hover {
+    background: -webkit-linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
+    background: linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
+    color:$rosa;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.subMenu {
+    display: none;
+}

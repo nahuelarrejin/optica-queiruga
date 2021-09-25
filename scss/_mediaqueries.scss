@@ -1,0 +1,121 @@
+@media (max-width: 800px) {
+
+    .destacados {
+        grid-template-areas: "areaUno areaUno"
+            "areaDos areaTres"
+            "areaCuatro areaCinco"
+            "areaSiete areaOcho"
+            "areaDiez areaNueve";
+    }
+
+    nav ul li a {
+        font-size: 2rem;
+    }
+
+    .infoFooter {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    .destacados {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "areaUno areaUno"
+            "areaDos areaTres"
+            "areaCuatro areaCinco"
+            "areaSiete areaOcho"
+            "areaDiez areaNueve";
+    }
+
+    .infoFooter {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+
+        .logoHeader {
+            width: 20vh;
+            height: 20vh;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    .destacados .fotoModelo {
+        width: 40vh;
+        height: 40vh;
+    }
+
+    .miNombre {
+        align-self: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+
+        .logoHeader {
+            width: 20vh;
+            height: 20vh;
+
+
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+
+            li a {
+                font-size: 2rem;
+
+            }
+        }
+    }
+
+    .destacados {
+        grid-template-columns: 1fr;
+        grid-template-areas: "areaUno"
+            "areaDos"
+            "areaTres"
+            "areaCuatro"
+            "areaCinco"
+            "areaSiete"
+            "areaOcho"
+            "areaNueve"
+            "areaDiez";
+    }
+
+
+
+    .infoFooter {
+        display: flex;
+        text-align: center;
+
+        .logoFooter {
+            margin-top: 1rem;
+        }
+
+        .miNombre {
+            align-self: center;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+body section h1 {
+    margin-bottom: 3rem;
+}
+
+body section h2 {
+    margin-top: 2rem;
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        color: $violetaoscuro;
+    }
+}
+
+.preguntasFrecuentes {
+    text-align: justify;
+    line-height: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 50rem;
+    padding-right: 50rem;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-top: 2rem;
+        color: $blanco;
+    }
+}

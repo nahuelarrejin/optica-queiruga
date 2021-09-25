@@ -1,0 +1,118 @@
+                                           /*     ___RESEST__     */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "variables";
+@import "fuentes";
+@import "index";
+@import "navbar";
+@import "tienda";
+@import "resenas";
+@import "preguntasfrecuentes";
+@import "contacto";
+@import "footer";
+@import "error";
+
+
+html {
+    font-size: 62.5%;
+    /* 1 rem = 10mpx */
+}
+
+                                             /*      ______GRIDS____       */
+.destacados {
+    display: grid;
+    grid-template-areas: "areaUno areaDos areaTres areaCuatro areaCinco"
+        "areaUno areaSiete areaOcho areaNueve areaDiez";
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+    margin-right: 10rem;
+
+    .fotoIndex {
+        grid-area: areaUno;
+        margin-left: 3rem;
+    }
+
+    .productoUno {
+        grid-area: areaDos;
+        transition: 1s;
+    }
+
+    .productoUno:hover {
+        transform: scale(1.1);
+    }
+
+    .productoDos {
+        grid-area: areaTres;
+        transition: 1s;
+    }
+
+    .productoDos:hover {
+        transform: scale(1.1);
+    }
+
+    .productoTres {
+        grid-area: areaCuatro;
+        transition: 1s;
+    }
+
+    .productoTres:hover {
+        transform: scale(1.1);
+    }
+
+    .productoCuatro {
+        grid-area: areaCinco;
+        transition: 1s;
+    }
+
+    .productoCuatro:hover {
+        transform: scale(1.1);
+    }
+
+    .productoCinco {
+        grid-area: areaSiete;
+        transition: 1s;
+    }
+
+    .productoCinco:hover {
+        transform: scale(1.1);
+    }
+
+    .productoSeis {
+        grid-area: areaOcho;
+        transition: 1s;
+    }
+
+    .productoSeis:hover {
+        transform: scale(1.1);
+    }
+
+    .productoSiete {
+        grid-area: areaNueve;
+        transition: 1s;
+    }
+
+    .productoSiete:hover {
+        transform: scale(1.1);
+    }
+
+    .productoOcho {
+        grid-area: areaDiez;
+        transition: 1s;
+    }
+
+    .productoOcho:hover {
+        transform: scale(1.1);
+    }
+     p   {
+          margin-bottom: 1rem;
+          color: $blanco;
+          font-size: 3.5rem;
+          font-family: 'Urbanist', sans-serif;
+      }
+}
+
+@import "mediaqueries";

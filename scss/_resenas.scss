@@ -1,0 +1,39 @@
+.row {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .row__textoCarta {
+        color: $negro;
+        font-family: 'Urbanist', sans-serif;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .row__tituloCarta {
+        font-size: 3rem;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: 600;
+        color: #594066;
+    }
+
+    .card {
+        margin-bottom: 4rem;
+        border-radius: 1rem;
+        transition: 1s;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+
+.resena {
+    margin-top: 5rem;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+.error {
+    margin-bottom: 5rem;
+    margin-right: 8rem;
+}
+
+.botones {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.error__boton{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: $negro;
+    background-color: $fondo;
+    border-radius: 6px;
+    border: 2px solid $violetaoscuro;
+    margin-left: 780px;
+  }
+  .error__boton:hover{
+    color: $violetaoscuro;
+    background-color: $rosa;
+  }
+
+  .error__huno {
+      margin-top: 2rem;
+      font-size: 4rem;
+      font-family: 'Roboto', sans-serif;
+      color: $rosa;
+      font-weight: 600;
+  }
+
+  .error__p {
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 3rem;
+      color:$blanco;
+  }
