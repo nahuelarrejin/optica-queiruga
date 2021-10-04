@@ -15,7 +15,7 @@ body {
 
     header {
         background-image: url("../imagenes/fondoheader222.jpg");
-        height: 25vh;
+        height: 100%;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -24,8 +24,8 @@ body {
         padding: 5rem;
 
         .header__logo {
-            height: "150"; 
-            width: "150";
+            height: 150px; 
+            width: 150px;
         }
     }
 
