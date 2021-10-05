@@ -267,7 +267,7 @@ body header nav ul a:hover {
 
 .anteojoSeis {
   -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-column: 3;
   grid-area: areaSiete;
   -webkit-transition: 2s;
   transition: 2s;
@@ -280,7 +280,7 @@ body header nav ul a:hover {
 
 .anteojoSiete {
   -ms-grid-row: 2;
-  -ms-grid-column: 3;
+  -ms-grid-column: 4;
   grid-area: areaOcho;
   -webkit-transition: 2s;
   transition: 2s;
@@ -293,7 +293,7 @@ body header nav ul a:hover {
 
 .anteojoOcho {
   -ms-grid-row: 2;
-  -ms-grid-column: 4;
+  -ms-grid-column: 5;
   grid-area: areaNueve;
   -webkit-transition: 2s;
   transition: 2s;
@@ -687,26 +687,22 @@ html {
 
 /*      ______GRIDS____       */
 .destacados {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "areaUno areaDos areaTres areaCuatro areaCinco" "areaUno areaSiete areaOcho areaNueve areaDiez";
-  grid-column-gap: 3rem;
-  grid-row-gap: 4rem;
-  margin-right: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.destacados .destacados__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .destacados .fotoIndex {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: areaUno;
   margin-left: 3rem;
 }
 
 .destacados .productoUno {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: areaDos;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -717,9 +713,6 @@ html {
 }
 
 .destacados .productoDos {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: areaTres;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -730,9 +723,6 @@ html {
 }
 
 .destacados .productoTres {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-  grid-area: areaCuatro;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -743,9 +733,6 @@ html {
 }
 
 .destacados .productoCuatro {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
-  grid-area: areaCinco;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -756,9 +743,6 @@ html {
 }
 
 .destacados .productoCinco {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: areaSiete;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -769,9 +753,6 @@ html {
 }
 
 .destacados .productoSeis {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: areaOcho;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -782,9 +763,6 @@ html {
 }
 
 .destacados .productoSiete {
-  -ms-grid-row: 2;
-  -ms-grid-column: 4;
-  grid-area: areaNueve;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -795,9 +773,6 @@ html {
 }
 
 .destacados .productoOcho {
-  -ms-grid-row: 2;
-  -ms-grid-column: 5;
-  grid-area: areaDiez;
   -webkit-transition: 1s;
   transition: 1s;
 }
