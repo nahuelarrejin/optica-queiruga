@@ -57,21 +57,20 @@ body {
         .producto__index:hover {
             transform: scale(1.1);
         }
-    
-        p   {
-              margin-bottom: 1rem;
-              color: $blanco;
-              font-size: 3.5rem;
-              font-family: 'Urbanist', sans-serif;
-          }
-    }
+        
+        p {
+            margin-bottom: 1rem;
+            color: $rosa;
+            font-size: 2.5rem;
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 600;
+        }
 
-    .destacados p {
-        margin-bottom: 1rem;
-        color: $rosa;
-        font-size: 2.5rem;
-        font-family: 'Urbanist', sans-serif;
-        font-weight: 600;
+        .carousel {
+            width: 600px; 
+            margin-top: 10rem;   
+            margin-left: 3rem;   
+        }
     }
 }
 
@@ -91,15 +90,4 @@ body {
         font-size: 3rem;
         text-align: center;
     }
-}
-
-.loremIndex {
-    color: #e4c4f5;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 600;
-    font-size: 3rem;
-    text-align: center;
-    padding-left: 30rem;
-    padding-right: 30rem;
-    margin-bottom: 5rem;
 }

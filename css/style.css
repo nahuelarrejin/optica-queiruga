@@ -89,17 +89,16 @@ body .destacados .producto__index:hover {
 
 body .destacados p {
   margin-bottom: 1rem;
-  color: #ffffff;
-  font-size: 3.5rem;
-  font-family: 'Urbanist', sans-serif;
-}
-
-body .destacados p {
-  margin-bottom: 1rem;
   color: #e4c4f5;
   font-size: 2.5rem;
   font-family: 'Urbanist', sans-serif;
   font-weight: 600;
+}
+
+body .destacados .carousel {
+  width: 600px;
+  margin-top: 10rem;
+  margin-left: 3rem;
 }
 
 .verTodosTexto {
@@ -122,17 +121,6 @@ body .destacados p {
   font-weight: 600;
   font-size: 3rem;
   text-align: center;
-}
-
-.loremIndex {
-  color: #e4c4f5;
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 600;
-  font-size: 3rem;
-  text-align: center;
-  padding-left: 30rem;
-  padding-right: 30rem;
-  margin-bottom: 5rem;
 }
 
 body header nav {
