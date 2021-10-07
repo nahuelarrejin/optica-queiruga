@@ -14,8 +14,6 @@
     }
 }
 
-
-
 .sectionContacto__ubicacion {
     grid-area: videoMapa;
     margin-top: 10rem;
@@ -32,6 +30,7 @@
     border-radius: 0.4rem;
     font-family: 'Urbanist', sans-serif;
     box-shadow: 0.7rem 1.3rem 3.7rem $negro;
+    
 
     h1 {
         color: $negro;
@@ -44,6 +43,7 @@
     
     .botonFormulario {
             margin-top: 4rem;
+            margin-left: 13rem;
     }
     .boton {
         width: 70%;
@@ -52,7 +52,7 @@
         border-radius: 0.4rem;
         color: blanchedalmond;
         text-transform: uppercase;
-        background: linear-gradient(to left top, #817780, #000000);
+        background: linear-gradient(to left top, $rosa, #000000);
         font-size: 2rem;
     }
 
@@ -96,11 +96,11 @@
     }
 
     form div {
+        display: flex;
+        flex-direction: column;
         color: $violetaoscuro;
     }
 }
-
-
 
 video {
     margin-top: 2rem;

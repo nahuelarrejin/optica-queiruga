@@ -12,10 +12,16 @@
     grid-row-gap: 2rem;
     margin-bottom: 10rem;
     margin-top: 10rem;
+
+    .producto__imagen {
+        width: 20vh;
+        height: 20vh;
+        border-radius: 5px;
+    }
     
     div ul li {
     text-decoration: none;  
-}
+    }
 
     p   {
         margin-bottom: 1rem;
@@ -23,12 +29,12 @@
         font-size: 2.5rem;
         font-family: 'Urbanist', sans-serif;
         font-weight: 600;
-}
+    }
 }
     .marcasTienda__nav {
     grid-area: areaUno;
     margin-left: 0.5rem;
-}
+    }
 
 .anteojoUno {
     grid-area: areaDos;

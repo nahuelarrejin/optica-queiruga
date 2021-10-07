@@ -10,6 +10,7 @@ body header nav {
             list-style-type: none;
             display: inline-block;
             margin: 0 1rem;
+            transition: 4s;
         }
 
         li:hover {
@@ -25,7 +26,9 @@ body header nav {
         }
 
         a:hover {
+            padding: 1rem;
             color: $blanco;
+            transition: 3s;
         }
     }
 

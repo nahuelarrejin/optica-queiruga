@@ -73,6 +73,7 @@ body .destacados .destacados__productos {
 body .destacados .producto__imagen {
   width: 20vh;
   height: 20vh;
+  border-radius: 10px;
 }
 
 body .destacados .producto__index {
@@ -141,6 +142,8 @@ body header nav ul li {
   list-style-type: none;
   display: inline-block;
   margin: 0 1rem;
+  -webkit-transition: 4s;
+  transition: 4s;
 }
 
 body header nav ul li:hover {
@@ -155,7 +158,10 @@ body header nav ul a {
 }
 
 body header nav ul a:hover {
+  padding: 1rem;
   color: #ffffff;
+  -webkit-transition: 3s;
+  transition: 3s;
 }
 
 .navYTitulos {
@@ -180,6 +186,12 @@ body header nav ul a:hover {
   grid-row-gap: 2rem;
   margin-bottom: 10rem;
   margin-top: 10rem;
+}
+
+.marcasTienda .producto__imagen {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 5px;
 }
 
 .marcasTienda div ul li {
@@ -487,6 +499,7 @@ body section h2 a {
 
 .sectionContacto__formulario .botonFormulario {
   margin-top: 4rem;
+  margin-left: 13rem;
 }
 
 .sectionContacto__formulario .boton {
@@ -496,8 +509,8 @@ body section h2 a {
   border-radius: 0.4rem;
   color: blanchedalmond;
   text-transform: uppercase;
-  background: -webkit-gradient(linear, right bottom, left top, from(#817780), to(#000000));
-  background: linear-gradient(to left top, #817780, #000000);
+  background: -webkit-gradient(linear, right bottom, left top, from(#e4c4f5), to(#000000));
+  background: linear-gradient(to left top, #e4c4f5, #000000);
   font-size: 2rem;
 }
 
@@ -544,6 +557,13 @@ body section h2 a {
 }
 
 .sectionContacto__formulario form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #560161;
 }
 
@@ -687,6 +707,19 @@ html {
   /* 1 rem = 10mpx */
 }
 
+@media (max-width: 1200px) {
+  .destacados {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .preguntasFrecuentes {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 @media (max-width: 800px) {
   header {
     -webkit-box-orient: vertical;
@@ -695,15 +728,10 @@ html {
             flex-direction: column;
   }
   .destacados {
-        grid-template-areas: "areaUno areaUno" "areaDos areaTres" "areaCuatro areaCinco" "areaSiete areaOcho" "areaDiez areaNueve";
-  }
-  body div div div .imagenCarrousel {
-    width: 100%;
-    height: 300px;
-  }
-  .carousel .carousel-indicators {
-    top: 35rem;
-    margin-left: 30rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   nav ul li a {
     font-size: 1.5rem;
@@ -757,18 +785,10 @@ html {
 }
 
 @media (max-width: 600px) {
-  .destacados {
-    margin-left: -3rem;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "areaUno"  "areaUno" "areaDos"  "areaTres" "areaCuatro" "areaCinco" "areaSiete" "areaOcho" "areaDiez" "areaNueve";
-  }
-  body div div div .imagenCarrousel {
-    width: 250px;
-    height: 300px;
-    margin-left: 15rem;
+  body .destacados .carousel {
+    width: 550px;
+    margin-top: 0%;
+    margin-left: 0%;
   }
   body h1 {
     margin-top: 5rem;
@@ -822,10 +842,6 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .carousel .carousel-indicators {
-    margin-top: 3rem;
-    margin-left: 23rem;
-  }
   .miNombre {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -856,17 +872,25 @@ html {
 }
 
 @media (max-width: 480px) {
-  body div div div .imagenCarrousel {
-    width: 40vh;
-    height: 30vh;
-  }
   .tituloIndex {
     margin-top: 6rem;
     margin-bottom: 3rem;
   }
-  .carousel .carousel-indicators {
-    margin-top: 3rem;
-    margin-right: -2rem;
+  .destacados {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .destacados .producto__index {
+    margin-left: 5rem;
+  }
+  .destacados .producto__imagen {
+    margin-left: 1rem;
+  }
+  body .destacados .carousel {
+    width: 450px;
+    margin-top: 4rem;
+    margin-left: 0rem;
   }
   header {
     -webkit-box-orient: vertical;
@@ -888,11 +912,6 @@ html {
   }
   header nav ul li a {
     font-size: 1.5rem;
-  }
-  .destacados {
-    -ms-grid-columns: 400px;
-        grid-template-columns: 400px;
-        grid-template-areas: "areaUno" "areaDos" "areaTres" "areaCuatro" "areaCinco" "areaSiete" "areaOcho" "areaNueve" "areaDiez";
   }
   .infoFooter {
     display: -webkit-box;
