@@ -2,17 +2,32 @@ footer {
     background-image: url(../imagenes/gradient.png);
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding-top: 3rem;
+
+    .infoFooter__primerSection {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mapaOptica {
+        width: 250px;
+        height: 100px;
+        margin-top: 1.5rem;
+    }
 
     .infoFooter__texto {
         align-self: flex-end;
         color: $rosa;
         font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
     }
 
     .infoFooter__logo {
-        align-self: flex-start;
+        width: 150px;
+        margin-bottom: 2rem;
     }
 
     .pagos {
@@ -24,6 +39,10 @@ footer {
             width: 20rem;
             justify-content: space-around;
             margin-top: 2rem;
+
+            .metodos__pago {
+                width: 270px;
+            }
         }
     }
 
@@ -42,6 +61,11 @@ footer {
             display: flex;
             justify-content: space-around;
             margin-top: 2rem;
+        }
+
+        .redes__icono {
+            width: 40px;
+            height: 40px;
         }
     }
 }

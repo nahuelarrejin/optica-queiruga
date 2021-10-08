@@ -5,12 +5,13 @@ body {
         margin-top: 10rem;
         margin-bottom: 10rem;
     }
-    .tituloIndex { 
-    color: #e4c4f5;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 600;
-    font-size: 3rem;
-    text-align: center;
+
+    .tituloIndex {
+        color: #e4c4f5;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
     }
 
     header {
@@ -24,7 +25,7 @@ body {
         padding: 5rem;
 
         .header__logo {
-            height: 150px; 
+            height: 150px;
             width: 150px;
         }
     }
@@ -37,12 +38,12 @@ body {
 
     .destacados {
         display: flex;
-    
+
         .destacados__productos {
             display: flex;
             flex-wrap: wrap;
         }
-        
+
         .producto__imagen {
             width: 20vh;
             height: 20vh;
@@ -52,13 +53,13 @@ body {
         .producto__index {
             transition: 1s;
             flex-basis: 25%;
-            
+
         }
-    
+
         .producto__index:hover {
             transform: scale(1.1);
         }
-        
+
         p {
             margin-bottom: 1rem;
             color: $rosa;
@@ -68,9 +69,9 @@ body {
         }
 
         .carousel {
-            width: 600px; 
-            margin-top: 10rem;   
-            margin-left: 3rem;   
+            width: 600px;
+            margin-top: 10rem;
+            margin-left: 3rem;
         }
     }
 }

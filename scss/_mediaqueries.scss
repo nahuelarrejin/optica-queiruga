@@ -27,6 +27,10 @@
         flex-direction: column;
         text-align: center;
 
+        .titulo__footer {
+            margin-top: 1.5rem;
+        }
+
         .redes .redes__img {
             width: 100%;
             justify-content: space-evenly;
@@ -36,9 +40,13 @@
             width: 100%;
             justify-content: space-evenly;
         }
-        
+
         .infoFooter__texto {
             align-self: center;
+        }
+
+        .infoFooter__primerSection {
+            flex-direction: column;
         }
     }
 
@@ -49,28 +57,28 @@
 
     .sectionContacto {
         display: grid;
-        grid-template-areas: "videoMapa" 
-                                "datos";
+        grid-template-areas: "videoMapa"
+            "datos";
     }
 
     .sectionContacto__formulario {
         width: 100%;
     }
 
-    .marcasTienda { 
+    .marcasTienda {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "areaUno"
-                             "areaUno"
-                             "areaDos areaTres"
-                             "areaCuatro areaCinco"
-                             "areaSeis areaSiete"
-                             "areaOcho areaNueve";
-    
-                    .marcasTienda__nav {
-                        margin-bottom: 22rem;
-                    }
-         }
+            "areaUno"
+            "areaDos areaTres"
+            "areaCuatro areaCinco"
+            "areaSeis areaSiete"
+            "areaOcho areaNueve";
+
+        .marcasTienda__nav {
+            margin-bottom: 22rem;
+        }
+    }
 
 }
 
@@ -80,6 +88,10 @@
         width: 550px;
         margin-top: 0%;
         margin-left: 0%;
+    }
+
+    .destacados__productos {
+        justify-content: center;
     }
 
     body h1 {
@@ -105,6 +117,10 @@
         .infoFooter__texto {
             align-self: center;
         }
+
+        .infoFooter__primerSection {
+            flex-direction: column;
+        }
     }
 
     header {
@@ -117,11 +133,11 @@
             margin-left: 2rem;
         }
 
-        nav  { 
-             ul {
-                    display: flex;
-                    flex-direction: column;
-             }
+        nav {
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 
@@ -136,32 +152,32 @@
 
     .sectionContacto {
         display: grid;
-        grid-template-areas: "videoMapa" 
-                                "datos";
+        grid-template-areas: "videoMapa"
+            "datos";
     }
 
     .sectionContacto__formulario {
         width: 100%;
     }
 
-    .marcasTienda { 
+    .marcasTienda {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "areaUno"
-                             "areaUno"
-                              "areaDos"
-                              "areaTres"
-                              "areaCuatro"
-                              "areaCinco"
-                              "areaSeis"
-                              "areaSiete"
-                              "areaOcho"
-                              "areaNueve";
-    
-                    .marcasTienda__nav {
-                        margin-bottom: 22rem;
-                    }
-         }
+            "areaUno"
+            "areaDos"
+            "areaTres"
+            "areaCuatro"
+            "areaCinco"
+            "areaSeis"
+            "areaSiete"
+            "areaOcho"
+            "areaNueve";
+
+        .marcasTienda__nav {
+            margin-bottom: 22rem;
+        }
+    }
 
 }
 
@@ -175,19 +191,23 @@
     .destacados {
         align-items: center;
 
-            .producto__index {
-                    margin-left: 5rem;
-                }
+        .producto__index {
+            margin-left: 5rem;
+        }
 
-                .producto__imagen {
-                            margin-left: 1rem;              
-                }          
+        .producto__imagen {
+            margin-left: 1rem;
+        }
+
+        .destacados__productos {
+            justify-content: center;
+        }
     }
 
     body .destacados .carousel {
-                width: 450px;
-                margin-top: 4rem;
-                margin-left: 0rem;
+        width: 450px;
+        margin-top: 4rem;
+        margin-left: 0rem;
     }
 
     header {
@@ -197,20 +217,24 @@
         width: 100%;
 
         nav {
-                ul {
-                     display: flex;
-                     flex-direction: column;
+            ul {
+                display: flex;
+                flex-direction: column;
 
-                    li a {
-                            font-size: 1.5rem;
-                    }
+                li a {
+                    font-size: 1.5rem;
                 }
+            }
         }
     }
 
     .infoFooter {
         display: flex;
         text-align: center;
+
+        .infoFooter__primerSection {
+            flex-direction: column;
+        }
 
         .logoFooter {
             margin-top: 1rem;
@@ -234,6 +258,10 @@
             align-self: center;
         }
 
+        .infooter__logo {
+            justify-content: center;
+        }
+
     }
 
     .preguntasFrecuentes {
@@ -247,32 +275,31 @@
 
     .sectionContacto {
         display: grid;
-        grid-template-areas: "videoMapa" 
-                                "datos";
+        grid-template-areas: "videoMapa"
+            "datos";
     }
 
     .sectionContacto__formulario {
         width: 100%;
     }
 
-    .marcasTienda { 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "areaUno"
-                         "areaUno"
-                          "areaDos"
-                          "areaTres"
-                          "areaCuatro"
-                          "areaCinco"
-                          "areaSeis"
-                          "areaSiete"
-                          "areaOcho"
-                          "areaNueve";
+    .marcasTienda {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "areaUno"
+            "areaUno"
+            "areaDos"
+            "areaTres"
+            "areaCuatro"
+            "areaCinco"
+            "areaSeis"
+            "areaSiete"
+            "areaOcho"
+            "areaNueve";
 
-                .marcasTienda__nav {
-                    margin-bottom: 22rem;
-                }
-     }
+        .marcasTienda__nav {
+            margin-bottom: 22rem;
+        }
+    }
 
 }
-

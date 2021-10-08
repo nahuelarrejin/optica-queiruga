@@ -7,7 +7,7 @@
 .marcasTienda {
     display: grid;
     grid-template-areas: "areaUno areaDos areaTres areaCuatro areaCinco"
-                         "areaUno areaSeis areaSiete areaOcho areaNueve";
+        "areaUno areaSeis areaSiete areaOcho areaNueve";
     grid-column-gap: 1rem;
     grid-row-gap: 2rem;
     margin-bottom: 10rem;
@@ -18,12 +18,12 @@
         height: 20vh;
         border-radius: 5px;
     }
-    
+
     div ul li {
-    text-decoration: none;  
+        text-decoration: none;
     }
 
-    p   {
+    p {
         margin-bottom: 1rem;
         color: $rosa;
         font-size: 2.5rem;
@@ -31,10 +31,11 @@
         font-weight: 600;
     }
 }
-    .marcasTienda__nav {
+
+.marcasTienda__nav {
     grid-area: areaUno;
     margin-left: 0.5rem;
-    }
+}
 
 .anteojoUno {
     grid-area: areaDos;
@@ -109,55 +110,56 @@
 }
 
 
-ul, ol {
-    list-style:none;
+ul,
+ol {
+    list-style: none;
 }
 
-.nav > li {
-    float:left;
-    
+.nav>li {
+    float: left;
+
     ul {
-    position:absolute;
-    min-width:140px;
+        position: absolute;
+        min-width: 140px;
 
-    li {
-        position:relative;
+        li {
+            position: relative;
 
-        ul {
-            right:-140px;
-            top:0px;
+            ul {
+                right: -140px;
+                top: 0px;
+            }
         }
     }
-}
-    
+
     a {
-    font-size: 1.5rem;
-    color:$blanco;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-align: left;
-}
+        font-size: 1.5rem;
+        color: $blanco;
+        text-decoration: none;
+        padding: 10px 12px;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-align: left;
+    }
 
-.caracteristicasMarca {
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-    color: $rosa;
-    font-weight: 600;
-}
+    .caracteristicasMarca {
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        color: $rosa;
+        font-weight: 600;
+    }
 
-} 
+}
 
 .nav li a:hover {
     background: -webkit-linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
     background: linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
-    color:$rosa;
+    color: $rosa;
 }
 
-.nav li:hover > ul {
-    display:block;
+.nav li:hover>ul {
+    display: block;
 }
 
 .subMenu {
