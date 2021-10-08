@@ -12,22 +12,21 @@ body header nav {
             margin: 0 1rem;
         }
 
-        li:hover {
-            background: -webkit-linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
-            background: linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
-        }
-
         a {
-            text-decoration: none;
             color: $blanco;
             font-family: 'Roboto', sans-serif;
             font-weight: 600;
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
         }
 
-        a:hover {
-            padding: 1rem;
-            color: $blanco;
-            transition: 3s;
+        a:hover,a:focus {
+            background-size: 100% 2px;
+            color: $rosa;
         }
     }
 }
