@@ -598,6 +598,18 @@ footer {
   padding-top: 3rem;
 }
 
+footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #e4c4f5;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
 footer .infoFooter__primerSection {
   display: -webkit-box;
   display: -ms-flexbox;

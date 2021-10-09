@@ -6,6 +6,14 @@ footer {
     justify-content: space-around;
     padding-top: 3rem;
 
+    p { 
+        display: flex;
+        color: $rosa;
+        font-size: 2rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
     .infoFooter__primerSection {
         display: flex;
         justify-content: space-around;
