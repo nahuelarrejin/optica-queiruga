@@ -122,6 +122,18 @@ body .destacados .carousel {
   font-weight: 600;
   font-size: 3rem;
   text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .3s;
+  transition: background-size .3s;
+}
+
+.verTodosTexto .verTodos:hover, .verTodosTexto .verTodos:focus {
+  background-size: 100% 2px;
+  color: #e4c4f5;
 }
 
 body header nav {

@@ -91,5 +91,15 @@ body {
         font-weight: 600;
         font-size: 3rem;
         text-align: center;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+
+    .verTodos:hover,.verTodos:focus {
+        background-size: 100% 2px;
+        color: $rosa;
     }
 }
