@@ -16,17 +16,20 @@ body {
 
     header {
         background-image: url("../imagenes/fondoheader222.jpg");
-        height: 100%;
+        height: 300px;
         width: 100%;
         display: flex;
         justify-content: space-between;
-        align-items: center;
         background-position: center;
-        padding: 5rem;
+        padding-top: 3rem;
 
         .header__logo {
-            height: 150px;
-            width: 150px;
+            width: 200px;
+            margin-left: 3rem;
+        }
+
+        .nombre_pagina {
+            height: 20%;
         }
     }
 

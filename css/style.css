@@ -30,7 +30,7 @@ body .tituloIndex {
 
 body header {
   background-image: url("../imagenes/fondoheader222.jpg");
-  height: 100%;
+  height: 300px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,16 +38,17 @@ body header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-position: center;
-  padding: 5rem;
+  padding-top: 3rem;
 }
 
 body header .header__logo {
-  height: 150px;
-  width: 150px;
+  width: 200px;
+  margin-left: 3rem;
+}
+
+body header .nombre_pagina {
+  height: 20%;
 }
 
 body section {
@@ -218,11 +219,15 @@ body header nav ul a:hover, body header nav ul a:focus {
 }
 
 .marcasTienda__nav {
+  width: 65%;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: areaUno;
   margin-left: 0.5rem;
+  border-left: 0.5rem solid #e4c4f5;
+  border-top: 0.5rem solid #e4c4f5;
+  height: 30%;
 }
 
 .anteojoUno {
@@ -372,7 +377,7 @@ ol {
 
 .nav li a:hover {
   background: linear-gradient(-66deg, #e4c4f5, black);
-  color: #e4c4f5;
+  color: #ffffff;
 }
 
 .nav li:hover > ul {
@@ -607,7 +612,10 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 3rem;
+}
+
+footer .infoFooter__texto {
+  font-size: 1.5rem;
 }
 
 footer .infoFooter__primerSection {
@@ -622,19 +630,6 @@ footer .mapaOptica {
   width: 250px;
   height: 100px;
   margin-top: 1.5rem;
-}
-
-footer .infoFooter__texto {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  color: #e4c4f5;
-  font-size: 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 footer .infoFooter__logo {
@@ -839,11 +834,11 @@ html {
     width: 100%;
   }
   .marcasTienda {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "areaUno" "areaUno" "areaDos areaTres" "areaCuatro areaCinco" "areaSeis areaSiete" "areaOcho areaNueve";
+        grid-template-areas: "areaUno" "areaUno"  "areaDos" "areaTres" "areaCuatro"  "areaCinco" "areaSeis" "areaSiete"  "areaOcho" "areaNueve";
   }
   .marcasTienda .marcasTienda__nav {
     margin-bottom: 22rem;
@@ -952,6 +947,14 @@ html {
   .tituloIndex {
     margin-top: 6rem;
     margin-bottom: 3rem;
+  }
+  .nombre_pagina {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .destacados {
     -webkit-box-align: center;

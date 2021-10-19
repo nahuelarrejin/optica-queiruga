@@ -11,7 +11,10 @@ footer {
         color: $rosa;
         font-size: 2rem;
         justify-content: center;
-        margin-top: 3rem;
+    }
+
+    .infoFooter__texto {
+        font-size: 1.5rem;
     }
 
     .infoFooter__primerSection {
@@ -23,14 +26,6 @@ footer {
         width: 250px;
         height: 100px;
         margin-top: 1.5rem;
-    }
-
-    .infoFooter__texto {
-        align-self: flex-end;
-        color: $rosa;
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
     }
 
     .infoFooter__logo {

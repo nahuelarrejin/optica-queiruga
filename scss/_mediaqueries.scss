@@ -66,20 +66,17 @@
     }
 
     .marcasTienda {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "areaUno"
-            "areaUno"
-            "areaDos areaTres"
-            "areaCuatro areaCinco"
-            "areaSeis areaSiete"
-            "areaOcho areaNueve";
+        grid-template-areas: "areaUno" "areaUno" 
+                    "areaDos" "areaTres" "areaCuatro" 
+                    "areaCinco" "areaSeis" "areaSiete" 
+                    "areaOcho" "areaNueve";
 
         .marcasTienda__nav {
             margin-bottom: 22rem;
         }
     }
-
 }
 
 @media (max-width: 600px) {
@@ -186,6 +183,11 @@
     .tituloIndex {
         margin-top: 6rem;
         margin-bottom: 3rem;
+    }
+
+    .nombre_pagina {
+        justify-content: center;
+        display: flex;
     }
 
     .destacados {

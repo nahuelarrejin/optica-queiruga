@@ -33,8 +33,12 @@
 }
 
 .marcasTienda__nav {
+    width: 65%;
     grid-area: areaUno;
     margin-left: 0.5rem;
+    border-left: 0.5rem solid #e4c4f5;
+    border-top: 0.5rem solid #e4c4f5;
+    height: 30%;
 }
 
 .anteojoUno {
@@ -155,7 +159,7 @@ ol {
 .nav li a:hover {
     background: -webkit-linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
     background: linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
-    color: $rosa;
+    color: $blanco;
 }
 
 .nav li:hover>ul {
