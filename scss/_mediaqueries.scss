@@ -136,6 +136,10 @@
                 flex-direction: column;
             }
         }
+
+        .contenedorNav {
+            flex-direction: column;
+        }
     }
 
     .miNombre {
@@ -227,6 +231,9 @@
                     font-size: 1.5rem;
                 }
             }
+        }
+        .contenedorNav {
+            flex-direction: column;
         }
     }
 

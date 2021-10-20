@@ -45,10 +45,25 @@ body header {
 body header .header__logo {
   width: 200px;
   margin-left: 3rem;
+  margin-top: 0.5rem;
 }
 
 body header .nombre_pagina {
   height: 20%;
+}
+
+body header .contenedorNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #e4c4f5;
+  opacity: 0.7;
 }
 
 body section {
@@ -139,8 +154,7 @@ body .destacados .carousel {
 
 body header nav {
   width: 90%;
-  position: -webkit-sticky;
-  position: sticky;
+  margin-top: 1rem;
 }
 
 body header nav ul {
@@ -158,7 +172,7 @@ body header nav ul li {
 }
 
 body header nav ul a {
-  color: #ffffff;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   text-decoration: none;
@@ -173,7 +187,7 @@ body header nav ul a {
 
 body header nav ul a:hover, body header nav ul a:focus {
   background-size: 100% 2px;
-  color: #e4c4f5;
+  color: #ffffff;
 }
 
 .navYTitulos {
@@ -914,6 +928,12 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  header .contenedorNav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .miNombre {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -997,6 +1017,12 @@ html {
   }
   header nav ul li a {
     font-size: 1.5rem;
+  }
+  header .contenedorNav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .infoFooter {
     display: -webkit-box;
