@@ -154,7 +154,7 @@ body .destacados .carousel {
 
 body header nav {
   width: 90%;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 body header nav ul {
@@ -389,9 +389,13 @@ ol {
   font-weight: 600;
 }
 
+.nav > li .caracteristicasMarca:hover {
+  background: none;
+}
+
 .nav li a:hover {
   background: linear-gradient(-66deg, #e4c4f5, black);
-  color: #ffffff;
+  color: #e4c4f5;
 }
 
 .nav li:hover > ul {

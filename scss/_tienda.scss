@@ -154,12 +154,16 @@ ol {
         font-weight: 600;
     }
 
+    .caracteristicasMarca:hover {
+        background: none;
+    }
+
 }
 
 .nav li a:hover {
     background: -webkit-linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
     background: linear-gradient(-66deg, rgb(228, 196, 245), rgb(0, 0, 0));
-    color: $blanco;
+    color: $rosa;
 }
 
 .nav li:hover>ul {
