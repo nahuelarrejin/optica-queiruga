@@ -22,9 +22,9 @@ body h1 {
 
 body .tituloIndex {
   color: #e4c4f5;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Urbanist', sans-serif;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 7rem;
   text-align: center;
 }
 
@@ -389,6 +389,10 @@ ol {
   font-weight: 600;
 }
 
+.nav > li .anteojoRecetado {
+  margin-top: 2rem;
+}
+
 .nav > li .caracteristicasMarca:hover {
   background: none;
 }
@@ -450,6 +454,8 @@ ol {
 .resena {
   margin-top: 5rem;
   text-align: center;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 7rem;
 }
 
 body section h1 {
@@ -483,6 +489,11 @@ body section h2 a {
   color: #ffffff;
 }
 
+#faq {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 7rem;
+}
+
 .sectionContacto {
   display: -ms-grid;
   display: grid;
@@ -498,8 +509,15 @@ body section h2 a {
   margin-bottom: 10rem;
 }
 
+.sectionContacto .sectionContacto__local .local {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 5rem;
+}
+
 .sectionContacto iframe {
   margin-top: 2rem;
+  width: 40rem;
+  height: 30rem;
 }
 
 .sectionContacto__ubicacion {
@@ -508,6 +526,11 @@ body section h2 a {
   grid-area: videoMapa;
   margin-top: 10rem;
   margin-bottom: 4rem;
+}
+
+.sectionContacto__ubicacion .ubicacion {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 5rem;
 }
 
 .sectionContacto__formulario {
@@ -787,6 +810,16 @@ html {
   .preguntasFrecuentes {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+  .marcasTienda {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "areaUno" "areaUno" "areaDos" "areaTres" "areaCuatro" "areaCinco" "areaSeis" "areaSiete" "areaOcho" "areaNueve";
+  }
+  .marcasTienda .marcasTienda__nav {
+    margin-bottom: 22rem;
   }
 }
 

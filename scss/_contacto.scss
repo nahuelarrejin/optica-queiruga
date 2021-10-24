@@ -7,10 +7,17 @@
         color: $violetaoscuro;
         margin-top: 50rem;
         margin-bottom: 10rem;
+
+        .local {
+            font-family: 'Urbanist', sans-serif;
+            font-size: 5rem;
+        }
     }
 
     iframe {
         margin-top: 2rem;
+        width: 40rem;
+        height: 30rem;
     }
 }
 
@@ -18,6 +25,11 @@
     grid-area: videoMapa;
     margin-top: 10rem;
     margin-bottom: 4rem;
+
+    .ubicacion {
+        font-family: 'Urbanist', sans-serif;
+        font-size: 5rem;
+    }
 }
 
 .sectionContacto__formulario {

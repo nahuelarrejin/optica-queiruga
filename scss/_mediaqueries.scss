@@ -7,6 +7,26 @@
         padding-left: 5rem;
         padding-right: 5rem;
     }
+
+    .marcasTienda {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "areaUno"
+            "areaUno"
+            "areaDos"
+            "areaTres"
+            "areaCuatro"
+            "areaCinco"
+            "areaSeis"
+            "areaSiete"
+            "areaOcho"
+            "areaNueve";
+
+        .marcasTienda__nav {
+            margin-bottom: 22rem;
+        }
+    }
+
 }
 
 @media (max-width: 800px) {
