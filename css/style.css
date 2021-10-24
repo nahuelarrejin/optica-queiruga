@@ -807,6 +807,13 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .destacados .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
   .preguntasFrecuentes {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -835,6 +842,13 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .destacados .destacados__productos {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   nav ul li a {
     font-size: 1.5rem;

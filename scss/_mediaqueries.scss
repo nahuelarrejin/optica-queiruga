@@ -1,6 +1,11 @@
 @media (max-width: 1200px) {
     .destacados {
         flex-direction: column;
+
+        .carousel {
+            display: flex;
+            align-self: center;
+        }
     }
 
     .preguntasFrecuentes {
@@ -37,6 +42,11 @@
 
     .destacados {
         flex-direction: column;
+
+        .destacados__productos {
+            column-gap: 20px;
+            justify-content: center;
+        }
     }
 
     nav ul li a {
